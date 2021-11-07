@@ -66,3 +66,39 @@ color: orange;
 }
 
 
+.service {
+    text-align: center;
+
+}
+section1 {
+    background-color: cornflowerblue;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+}
+.row {
+    margin: 0 -4px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+}
+.numder {
+    border-radius: 100;
+    border-color: orange;
+}
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+        display: block;
+    }
+}
