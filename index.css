@@ -133,4 +133,84 @@ section1 {
         margin-bottom: 20px;
         display: block;
     }
-    
+    .menu {
+        text-align: center;
+    }
+    .men {
+        font-style: italic;
+    }
+/* #first {
+    float: left;
+    border-style: solid;
+    padding: 5px;
+    margin: 5px;
+    height: 130px;
+    width: 200px;
+    box-sizing: border-box;
+}
+#third {
+    width: 200px;
+    height: 110px;
+    margin-top: 50px;
+    margin-right: 90px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-style: solid;
+    float: right;
+}
+#second {
+    float: left;
+    border-style: solid;
+    box-sizing: border-box;
+    width: 200px;
+    height: 130px;
+    margin-left: 100px;
+    margin-top: 7px;
+    padding: 5px;
+}
+#forth {
+    float: left;
+    border-style: solid;
+    box-sizing: border-box;
+    width: 200px;
+    height: 110px;
+    margin-top: 50px;
+    padding: 5px;
+
+}
+.sect {
+    padding: 5px;
+    margin: 5px;
+    border-width: 25%;
+
+} */
+
+/* }
+.oregano { width: 50%;
+    background: cornflowerblue;
+    border: 1px soli white;
+    margin-bottom: 0.3s;
+
+
+}
+.chapati {
+    text-align: center;
+    padding: 50px 10px;
+    background: linear-gradient(to right);
+    color:black;
+}
+.body {
+    padding: 30px 20px;
+    text-align: right;
+    font-size: 10px;
+}
+.body .button {
+    display: block;
+    color: orange;
+    text-align: center;
+    background: linear-gradient(to right);
+    margin-top: 30px;
+    text-decoration: ;
+}  */
+
+
