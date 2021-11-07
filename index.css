@@ -37,3 +37,32 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: aliceblue;
+    font-family: Roboto;
+    font-size: 30px;
+    
+
+}
+.header {
+    background-image: url("images/image2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 40px;
+
+    
+}
+
+#topic {
+    color: white;
+    font-size: 20px;
+}
+.topic {
+    display: flex;
+}
+.button {
+color: orange;
+
+}
+
+
