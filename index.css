@@ -5,4 +5,35 @@
     border: 0px;
     height: auto;
     }
+    .text {
+        color: orange;
+    }
+     .navbar ul {
+         list-style: none;
+         padding: 0px;
+         margin: opx;
+         text-align: right;
+     } 
+     .navbar li {
+         display: inline-block;
+         top: 0;
+        
     
+     }
+     .navbar a {
+         text-decoration: none;
+         color: white;
+         width: 80px;
+         display: block;
+         padding: 25px 25px;
+         font-weight: bold;
+         text-align: center;
+         font-size: 14px;
+    
+     }
+.navbar a:hover {
+    background: orange;
+}
+* {
+    box-sizing: border-box;
+}
