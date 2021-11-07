@@ -36,22 +36,24 @@
 }
 * {
     box-sizing: border-box;
-}
-/* body {
+} body {
     background-color: aliceblue;
     font-family: Roboto;
+    font-size: 30px;
     
 
-} */
+}
 .header {
     background-image: url("images/image2.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    font-size: 40px;
 
     
 }
 #topic {
     color: white;
+    font-size: 20px;
 }
 .topic {
     display: flex;
@@ -86,6 +88,10 @@ section1 {
     padding: 15px;
     background-color: white;
     text-align: center;
+}
+.numder {
+    border-radius: 100;
+    border-color: orange;
 }
 @media screen and (max-width: 500px) {
     .column {
@@ -201,41 +207,11 @@ section1 {
     text-decoration: ;
 }  */
 
-body {
-    width: 300px;
-    margin: auto;
-  }
-  section {
-    display: flex;
-    padding: 10px;
-    float: right;
-  }
-  
-  div {
-    background-color: aliceblue;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-  }
-  #first {
-      flex-wrap: wrap;
-      padding: 20px;
-      -ms-flex-direction: row;
-      flex-flow: inherit;
-  }
-  .second {
-      float: right 50px;
-      margin: 0%;
-  }
 
 .book {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0, 0.5)) url("images/image8.png");
-    background-repeat: no-repeat;
+    background-image: url("images/image8.png");
     background-size: cover;
-    height: 480px;
-    position: relative;
-    background-position: center;
-
+    
 }
 .book1 {
     text-align: center;
