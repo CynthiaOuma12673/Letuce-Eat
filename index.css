@@ -217,9 +217,12 @@ section1 {
 .book {
     background-image: url("images/image8.png");
     background-size: cover;
+    color: white;
     
 }
-
+h1 ,h2{
+    color: white    ;
+}
 .book1 {
     text-align: center;
     padding: 50px;
@@ -228,8 +231,15 @@ section1 {
 
 #foot{
     background-color: black;
-    ;
+    
     
 }
-
-    
+footer{
+    height: 500px;
+    background-image: url("./images/image8.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    width: 200px;
+}
