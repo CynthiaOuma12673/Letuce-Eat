@@ -1,245 +1,312 @@
-
-.logo img {
-    vertical-align: middle;
-    max-width: 100%;
-    border: 0px;
-    height: auto;
-    }
-    .text {
-        color: orange;
-    }
-     .navbar ul {
-         list-style: none;
-         padding: 0px;
-         margin: opx;
-         text-align: right;
-     } 
-     .navbar li {
-         display: inline-block;
-         top: 0;
-        
-    
-     }
-     .navbar a {
-         text-decoration: none;
-         color: white;
-         width: 80px;
-         display: block;
-         padding: 25px 25px;
-         font-weight: bold;
-         text-align: center;
-         font-size: 14px;
-    
-     }
-.navbar a:hover {
-    background: orange;
-}
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
 body {
     background-color: aliceblue;
-    font-family: Roboto;
-    font-size: 30px;
-    
-
 }
-.header {
+
+header {
     background-image: url("images/image2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: 40px;
-
-    
+    height: 80vh;
 }
 
-#topic {
-    color: white;
-    font-size: 20px;
-}
-.topic {
-    display: flex;
-}
-.button {
-color: orange;
-
-}
-
-
-.service {
-    text-align: center;
-
-}
-section1 {
-    background-color: cornflowerblue;
-}
-.column {
-    float: left;
-    width: 30%;
-    padding: 0 10px;
-}
-.row {
-    margin: 0 -4px;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.card {
-    padding: 15px;
-    background-color: white;
-    text-align: center;
-}
-.numder {
-    border-radius: 100;
-    border-color: orange;
-}
-@media screen and (max-width: 500px) {
-    .column {
-        width: 100%;
-        margin-bottom: 20px;
-        display: block;
-    }
-}
-
-.reviews {
-    float: left;
-    width: 50%;
-    padding: 0px;
-}
-.rev {
-    margin: 0 0px;
-    background-color: black;
-
-}
-.rev:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.img {
-    padding: 16px;
-    text-align: center;
-    background-color: black;
-}
-.organic {
-    color: white;
-
-}
-@media screen and (max-width: 500px) {
-    .column {
-        width: 100%;
-        margin-bottom: 20px;
-        display: block;
-    }
-    .menu {
-        text-align: center;
-    }
-    .men {
-        font-style: italic;
-    }
-/* #first {
-    float: left;
-    border-style: solid;
-    padding: 5px;
-    margin: 5px;
-    height: 130px;
-    width: 200px;
-    box-sizing: border-box;
-}
-#third {
-    width: 200px;
-    height: 110px;
-    margin-top: 50px;
-    margin-right: 90px;
-    padding: 5px;
-    box-sizing: border-box;
-    border-style: solid;
-    float: right;
-}
-#second {
-    float: left;
-    border-style: solid;
-    box-sizing: border-box;
-    width: 200px;
-    height: 130px;
-    margin-left: 100px;
-    margin-top: 7px;
-    padding: 5px;
-}
-#forth {
-    float: left;
-    border-style: solid;
-    box-sizing: border-box;
-    width: 200px;
-    height: 110px;
-    margin-top: 50px;
-    padding: 5px;
-
-}
-.sect {
-    padding: 5px;
-    margin: 5px;
-    border-width: 25%;
-
-} */
-
-/* }
-.oregano { width: 50%;
-    background: cornflowerblue;
-    border: 1px soli white;
-    margin-bottom: 0.3s;
-
-
-}
-.chapati {
-    text-align: center;
-    padding: 50px 10px;
-    background: linear-gradient(to right);
-    color:black;
-}
-.body {
-    padding: 30px 20px;
-    text-align: right;
-    font-size: 10px;
-}
-.body .button {
-    display: block;
-    color: orange;
-    text-align: center;
-    background: linear-gradient(to right);
-    margin-top: 30px;
-    text-decoration: ;
-}  */
-
-
-.book {
-    background-image: url("images/image8.png");
-    background-size: cover;
-    color: white;
-    
-}
-h1 ,h2{
-    color: white    ;
-}
-.book1 {
-    text-align: center;
-    padding: 50px;
-    line-height: 100px;
-}
-
-#foot{
-    background-color: black;
-    
-    
-}
-footer{
-    height: 500px;
-    background-image: url("./images/image8.png");
-    background-repeat: no-repeat;
+.navbar {
+    background-color: rgba(0, 0, 0, .4);
+    height: 12vh;
+    padding: 0 7rem;
     display: flex;
     align-items: center;
-    background-size: cover;
-    width: 200px;
+    justify-content: space-between;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.45rem;
+    font-weight: 600;
+    margin-left: 1.2rem;
+    color: #F19201;
+}
+
+.navigation {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    height: 100%;
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navigation ul li a:hover {
+    color: #F19201;
+} 
+
+.navigation button {
+    padding: .8rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #F19201;
+    color: white;
+}
+
+.home {
+    width: 50%;
+    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5rem;
+}
+
+.home h1 {
+    font-size: 3.15rem;
+}
+
+.home h1 span {
+    display: block;
+    line-height: 1.6;
+}
+
+.home button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    background-color: #F19201;
+    color: white;
+}
+
+/** Service Section **/
+.service {
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.service h2 {
+    color: #F19201;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.service p span {
+    display: block;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.row {
+    width: 75%;
+    margin: 1.5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    padding: 1.2rem;
+}
+
+.card div {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #F19201;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 1.25rem 0;
+}
+
+/** Reviews **/
+
+.reviews {
+    display: flex;
+    background-color: black;
+}
+
+.reviews img {
+    width: 50%;
+}
+
+.reviews div {
+    width: 50%;
+    text-align: center;
+    padding: 4rem 0;
+    color: white;
+}
+
+.reviews div h1 {
+    font-size: 2.85rem;
+    font-weight: 400;
+    /* margin-bottom: 1.5rem; */
+
+}
+
+.reviews div h1::after {
+    content: "";
+    display: block;
+    height: .2rem;
+    width: 4rem;
+    background-color: white;
+    margin: 1rem auto;
+}
+
+.reviews div h2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin: 1.5rem 0;
+}
+
+.reviews div p {
+    margin: 2.5rem 0;
+}
+
+.reviews div p span {
+    display: block;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.reviews div p:last-child {
+    font-weight: 600;
+}
+
+/** Menu Section **/
+
+.menu {
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.menu h1 {
+    color: #F19201;
+    font-weight: 400;
+}
+
+.menu p {
+    font-style: italic;
+    margin: 1.5rem 0;
+}
+
+.menu p span {
+    display: block;
+    line-height: 1.6;
+}
+
+.menu-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+.dishes {
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    text-align: left;
+}
+
+.dishes img {
+    width: 50%;
+}
+
+.dishes div {
+    padding-left: 1.2rem;
+    padding-top: 1rem;
+    width: 50%;
+    height: 100%;
+}
+
+.dishes div p + p {
+    color: #F19201;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.dishes div button:last-child {
+    margin-top: 3rem;
+    padding: .5rem .8rem;
+    background-color: aliceblue;
+    border: none;
+}
+
+/**footer section**/
+footer {
+    height: 30rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+footer>div {
+    background-image: url("images/image8.png");
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer>div>div {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
